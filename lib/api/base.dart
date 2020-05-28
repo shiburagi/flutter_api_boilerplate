@@ -7,7 +7,6 @@ import 'package:flutter/foundation.dart';
 
 
 abstract class BaseApi {
-  BaseApi._(); // disable constructor
 
   static Dio _dio = initDio();
   static Dio initDio() {
